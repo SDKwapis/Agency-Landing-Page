@@ -1,0 +1,39 @@
+.sticky-cta {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 90;
+  opacity: 0;
+  transform: translateY(16px);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.sticky-cta--visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.sticky-cta__btn {
+  box-shadow: 0 4px 20px rgba(45, 106, 79, 0.35), 0 2px 8px rgba(0,0,0,0.12);
+  padding: 14px 24px;
+  font-size: 14px;
+}
+
+.sticky-cta__btn:hover {
+  box-shadow: 0 6px 28px rgba(45, 106, 79, 0.45), 0 4px 12px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 640px) {
+  .sticky-cta {
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+  }
+
+  .sticky-cta__btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

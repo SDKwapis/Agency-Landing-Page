@@ -1,0 +1,134 @@
+.process__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: end;
+  margin-bottom: 56px;
+}
+
+.process__steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  position: relative;
+}
+
+.process__step {
+  position: relative;
+  padding: 0 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.process__step:last-child {
+  padding-right: 0;
+}
+
+.process__step-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--accent-pale);
+  border: 1.5px solid var(--accent-light);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.process__step-number {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+.process__step-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.process__step-body {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+.process__connector {
+  position: absolute;
+  top: 24px;
+  right: -12px;
+  width: 24px;
+  height: 2px;
+  background: var(--accent-light);
+  transform: translateY(-50%);
+}
+
+.process__connector::after {
+  content: '';
+  position: absolute;
+  right: -4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: var(--accent-mid);
+  border-radius: 50%;
+}
+
+.process__note {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-top: 48px;
+  padding: 20px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.process__note-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.process__note strong {
+  color: var(--text-primary);
+}
+
+@media (max-width: 900px) {
+  .process__header {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .process__steps {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .process__connector {
+    display: none;
+  }
+
+  .process__step {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .process__steps {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}

@@ -1,0 +1,23 @@
+/* App-level layout — section-specific styles live in component CSS files */
+#main {
+  outline: none;
+}
+
+/* Skip to main content for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--accent);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 0 0 var(--radius-sm) 0;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 200;
+  transition: top 0.15s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
