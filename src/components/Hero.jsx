@@ -40,22 +40,32 @@ export default function Hero() {
         </div>
 
         <div className="hero__visual" aria-hidden="true">
-          <div className="hero__card hero__card--1">
-            <div className="hero__card-label">Conversion Rate</div>
-            <div className="hero__card-value">4.8%</div>
-            <div className="hero__card-change hero__card-change--up">↑ 2.1x from baseline</div>
+          <div className="hero__photo-wrap">
+            <img
+              className="hero__photo"
+              src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80"
+              alt=""
+              loading="eager"
+              decoding="async"
+            />
+            <div className="hero__photo-stats">
+              <div className="hero__stat-chip">
+                <div className="hero__stat-chip-label">Conversion Rate</div>
+                <div className="hero__stat-chip-value">4.8%</div>
+                <div className="hero__stat-chip-delta">↑ 2.1x from baseline</div>
+              </div>
+              <div className="hero__stat-chip">
+                <div className="hero__stat-chip-label">Cost Per Lead</div>
+                <div className="hero__stat-chip-value">$18</div>
+                <div className="hero__stat-chip-delta">↓ 54% in 6 weeks</div>
+              </div>
+              <div className="hero__stat-chip">
+                <div className="hero__stat-chip-label">Launch Time</div>
+                <div className="hero__stat-chip-value">5 days</div>
+                <div className="hero__stat-chip-delta">↑ not 5 months</div>
+              </div>
+            </div>
           </div>
-          <div className="hero__card hero__card--2">
-            <div className="hero__card-label">Cost Per Lead</div>
-            <div className="hero__card-value">$18</div>
-            <div className="hero__card-change hero__card-change--down">↓ 54% in 6 weeks</div>
-          </div>
-          <div className="hero__card hero__card--3">
-            <div className="hero__card-label">Launch Time</div>
-            <div className="hero__card-value">5 days</div>
-            <div className="hero__card-change hero__card-change--up">↑ not 5 months</div>
-          </div>
-          <div className="hero__blob" />
         </div>
       </div>
 

@@ -4,6 +4,8 @@ const SERVICES = [
   {
     name: 'Website Intensive',
     emoji: '⚡',
+    photo: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=700&h=220&q=80',
+    photoAlt: 'Designer working on a website layout',
     description: "A focused, collaborative 5-day sprint to launch a fast, conversion-optimized website you're proud to send leads to. Strategy, design, copywriting, and launch — all in one week.",
     bestFor: 'Businesses with an outdated or underperforming website',
     timeline: '5 business days',
@@ -23,6 +25,8 @@ const SERVICES = [
   {
     name: 'Lead Generation Starter',
     emoji: '📥',
+    photo: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&h=220&q=80',
+    photoAlt: 'Analytics dashboard showing conversion data',
     description: 'A focused audit and fix of your lead funnel: landing page, form flow, offer clarity, and conversion tracking. Designed to find and close the gap between visits and inquiries.',
     bestFor: 'Businesses with traffic but few or low-quality leads',
     timeline: '2–3 weeks',
@@ -41,6 +45,8 @@ const SERVICES = [
   {
     name: 'Ads Cleanup Sprint',
     emoji: '🎯',
+    photo: 'https://images.unsplash.com/photo-1432888622747-4eb9a8f5a07d?auto=format&fit=crop&w=700&h=220&q=80',
+    photoAlt: 'Person reviewing ad performance on a phone',
     description: "A rapid audit and rebuild of your underperforming ad campaigns. We diagnose what's wrong, fix targeting and creative structure, and reset your account for a better baseline ROAS.",
     bestFor: 'Businesses spending on ads with poor ROI',
     timeline: '1 week',
@@ -59,6 +65,8 @@ const SERVICES = [
   {
     name: 'Monthly Growth Partner',
     emoji: '🤝',
+    photo: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=700&h=220&q=80',
+    photoAlt: 'Small team collaborating in a bright office',
     description: 'Ongoing strategy, content, ads, and reporting — without hiring a full-time team. You get two dedicated specialists who know your business and show up every month with a clear plan.',
     bestFor: 'Businesses ready for consistent growth without the overhead',
     timeline: 'Ongoing · Cancel anytime',
@@ -99,6 +107,18 @@ export default function Services() {
             >
               {s.highlight && (
                 <div className="services__card-badge">Most popular</div>
+              )}
+
+              {s.photo && (
+                <div className="services__card-img-wrap">
+                  <img
+                    src={s.photo}
+                    alt={s.photoAlt}
+                    className="services__card-img"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
               )}
 
               <div className="services__card-top">
