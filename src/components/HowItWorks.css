@@ -3,7 +3,36 @@
   grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: end;
+  margin-bottom: 40px;
+}
+
+.process__photo-wrap {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
   margin-bottom: 56px;
+  border: 1.5px solid var(--border);
+  box-shadow: var(--shadow-md);
+}
+
+.process__photo {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+}
+
+.process__photo-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 24px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.88);
+  background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 100%);
+  font-style: italic;
+  line-height: 1.5;
 }
 
 .process__steps {

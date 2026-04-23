@@ -4,6 +4,8 @@ const CASES = [
   {
     industry: 'Home Services',
     type: 'Website Intensive + Lead Gen',
+    photo: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=700&h=240&q=80',
+    photoAlt: 'Home services technician at work',
     metric: '3.2x',
     metricLabel: 'More qualified leads per month',
     stat2: { value: '11 days', label: 'From kickoff to live site' },
@@ -15,6 +17,8 @@ const CASES = [
   {
     industry: 'Wellness & Med Spa',
     type: 'Ads Cleanup Sprint',
+    photo: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&h=240&q=80',
+    photoAlt: 'Wellness spa interior',
     metric: '54%',
     metricLabel: 'Reduction in cost per booking',
     stat2: { value: '4.8%', label: 'Booking conversion rate (up from 1.9%)' },
@@ -26,6 +30,8 @@ const CASES = [
   {
     industry: 'Legal Consulting',
     type: 'Monthly Growth Partner',
+    photo: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&h=240&q=80',
+    photoAlt: 'Legal office with books and desk',
     metric: '2.1x',
     metricLabel: 'Revenue growth in 4 months',
     stat2: { value: '38%', label: 'Increase in consultation bookings' },
@@ -50,6 +56,15 @@ export default function Proof() {
         <div className="proof__grid">
           {CASES.map((c, i) => (
             <article key={i} className="proof__card" aria-label={`Case study: ${c.industry}`}>
+              <div className="proof__card-img-wrap">
+                <img
+                  src={c.photo}
+                  alt={c.photoAlt}
+                  className="proof__card-img"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
               <div className="proof__card-top">
                 <div className="proof__tags">
                   <span className="proof__industry">{c.industry}</span>

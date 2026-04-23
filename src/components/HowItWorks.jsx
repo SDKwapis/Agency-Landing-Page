@@ -58,6 +58,19 @@ export default function HowItWorks() {
           </p>
         </div>
 
+        <div className="process__photo-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&h=440&q=80"
+            alt="Small team strategy session at a whiteboard"
+            className="process__photo"
+            loading="lazy"
+            decoding="async"
+          />
+          <div className="process__photo-caption">
+            A typical strategy session — where we map your funnel and identify the highest-leverage fix first.
+          </div>
+        </div>
+
         <div className="process__steps">
           {STEPS.map((step, i) => (
             <div key={step.number} className="process__step">
