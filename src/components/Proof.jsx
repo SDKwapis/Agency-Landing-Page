@@ -4,7 +4,7 @@ const CASES = [
   {
     industry: 'Home Services',
     type: 'Website Intensive + Lead Gen',
-    photo: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=700&h=240&q=80',
+    photo: 'https://picsum.photos/seed/cairn-hvac/700/240',
     photoAlt: 'Home services technician at work',
     metric: '3.2x',
     metricLabel: 'More qualified leads per month',
@@ -17,7 +17,7 @@ const CASES = [
   {
     industry: 'Wellness & Med Spa',
     type: 'Ads Cleanup Sprint',
-    photo: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=700&h=240&q=80',
+    photo: 'https://picsum.photos/seed/cairn-spa/700/240',
     photoAlt: 'Wellness spa interior',
     metric: '54%',
     metricLabel: 'Reduction in cost per booking',
@@ -30,7 +30,7 @@ const CASES = [
   {
     industry: 'Legal Consulting',
     type: 'Monthly Growth Partner',
-    photo: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=700&h=240&q=80',
+    photo: 'https://picsum.photos/seed/cairn-legal/700/240',
     photoAlt: 'Legal office with books and desk',
     metric: '2.1x',
     metricLabel: 'Revenue growth in 4 months',

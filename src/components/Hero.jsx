@@ -43,7 +43,7 @@ export default function Hero() {
           <div className="hero__photo-wrap">
             <img
               className="hero__photo"
-              src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80"
+              src="https://picsum.photos/seed/cairn-hero/900/440"
               alt=""
               loading="eager"
               decoding="async"

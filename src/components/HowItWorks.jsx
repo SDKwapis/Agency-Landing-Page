@@ -60,7 +60,7 @@ export default function HowItWorks() {
 
         <div className="process__photo-wrap">
           <img
-            src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&h=440&q=80"
+            src="https://picsum.photos/seed/cairn-process/1200/440"
             alt="Small team strategy session at a whiteboard"
             className="process__photo"
             loading="lazy"
