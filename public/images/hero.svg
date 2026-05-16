@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440">
+  <defs>
+    <linearGradient id="base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2D1F"/>
+      <stop offset="100%" stop-color="#1B4332"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="25%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#52B788" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#52B788" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="45%">
+      <stop offset="0%" stop-color="#2D6A4F" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2D6A4F" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="440" fill="url(#base)"/>
+  <rect width="900" height="440" fill="url(#glow1)"/>
+  <rect width="900" height="440" fill="url(#glow2)"/>
+  <rect width="900" height="440" fill="url(#grid)"/>
+  <!-- Laptop screen wireframe -->
+  <rect x="220" y="80" width="460" height="290" rx="12" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <rect x="220" y="80" width="460" height="32" rx="12" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="240" cy="96" r="5" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="258" cy="96" r="5" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="276" cy="96" r="5" fill="rgba(255,255,255,0.12)"/>
+  <!-- Content lines -->
+  <rect x="252" y="140" width="160" height="10" rx="5" fill="rgba(255,255,255,0.1)"/>
+  <rect x="252" y="162" width="260" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
+  <rect x="252" y="178" width="210" height="7" rx="3.5" fill="rgba(255,255,255,0.06)"/>
+  <rect x="252" y="194" width="230" height="7" rx="3.5" fill="rgba(255,255,255,0.05)"/>
+  <rect x="252" y="222" width="96" height="28" rx="14" fill="rgba(82,183,136,0.35)"/>
+  <rect x="252" y="270" width="320" height="1" fill="rgba(255,255,255,0.06)"/>
+  <rect x="252" y="288" width="280" height="6" rx="3" fill="rgba(255,255,255,0.05)"/>
+  <rect x="252" y="302" width="240" height="6" rx="3" fill="rgba(255,255,255,0.04)"/>
+  <!-- Right metric chips -->
+  <rect x="560" y="136" width="96" height="64" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="572" y="150" width="48" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+  <rect x="572" y="164" width="32" height="12" rx="3" fill="rgba(82,183,136,0.4)"/>
+  <rect x="560" y="216" width="96" height="64" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="572" y="230" width="48" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+  <rect x="572" y="244" width="32" height="12" rx="3" fill="rgba(82,183,136,0.4)"/>
+</svg>

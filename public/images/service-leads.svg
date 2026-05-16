@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="220" viewBox="0 0 700 220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A3A28"/>
+      <stop offset="100%" stop-color="#2D5A42"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="40%" cy="60%" r="55%">
+      <stop offset="0%" stop-color="#74C69D" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#74C69D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="220" fill="url(#bg)"/>
+  <rect width="700" height="220" fill="url(#spot)"/>
+  <!-- Funnel shape -->
+  <polygon points="220,40 480,40 420,110 280,110" fill="rgba(82,183,136,0.18)" stroke="rgba(82,183,136,0.25)" stroke-width="1"/>
+  <polygon points="280,118 420,118 390,168 310,168" fill="rgba(82,183,136,0.14)" stroke="rgba(82,183,136,0.2)" stroke-width="1"/>
+  <polygon points="310,176 390,176 370,210 330,210" fill="rgba(82,183,136,0.22)" stroke="rgba(82,183,136,0.3)" stroke-width="1"/>
+  <!-- Stage labels -->
+  <rect x="530" y="55" width="80" height="8" rx="4" fill="rgba(255,255,255,0.1)"/>
+  <rect x="530" y="72" width="60" height="6" rx="3" fill="rgba(255,255,255,0.07)"/>
+  <rect x="530" y="128" width="80" height="8" rx="4" fill="rgba(255,255,255,0.1)"/>
+  <rect x="530" y="145" width="60" height="6" rx="3" fill="rgba(255,255,255,0.07)"/>
+  <rect x="530" y="185" width="80" height="8" rx="4" fill="rgba(82,183,136,0.5)"/>
+  <!-- Trend line chart bottom left -->
+  <polyline points="80,190 120,170 160,175 200,155 240,145" fill="none" stroke="rgba(82,183,136,0.35)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="240" cy="145" r="4" fill="rgba(82,183,136,0.6)"/>
+</svg>

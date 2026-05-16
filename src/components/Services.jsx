@@ -4,7 +4,7 @@ const SERVICES = [
   {
     name: 'Website Intensive',
     emoji: '⚡',
-    photo: 'https://picsum.photos/seed/cairn-web/700/220',
+    photo: '/images/service-web.svg',
     photoAlt: 'Designer working on a website layout',
     description: "A focused, collaborative 5-day sprint to launch a fast, conversion-optimized website you're proud to send leads to. Strategy, design, copywriting, and launch — all in one week.",
     bestFor: 'Businesses with an outdated or underperforming website',
@@ -25,7 +25,7 @@ const SERVICES = [
   {
     name: 'Lead Generation Starter',
     emoji: '📥',
-    photo: 'https://picsum.photos/seed/cairn-leads/700/220',
+    photo: '/images/service-leads.svg',
     photoAlt: 'Analytics dashboard showing conversion data',
     description: 'A focused audit and fix of your lead funnel: landing page, form flow, offer clarity, and conversion tracking. Designed to find and close the gap between visits and inquiries.',
     bestFor: 'Businesses with traffic but few or low-quality leads',
@@ -45,7 +45,7 @@ const SERVICES = [
   {
     name: 'Ads Cleanup Sprint',
     emoji: '🎯',
-    photo: 'https://picsum.photos/seed/cairn-ads/700/220',
+    photo: '/images/service-ads.svg',
     photoAlt: 'Person reviewing ad performance on a phone',
     description: "A rapid audit and rebuild of your underperforming ad campaigns. We diagnose what's wrong, fix targeting and creative structure, and reset your account for a better baseline ROAS.",
     bestFor: 'Businesses spending on ads with poor ROI',
@@ -65,7 +65,7 @@ const SERVICES = [
   {
     name: 'Monthly Growth Partner',
     emoji: '🤝',
-    photo: 'https://picsum.photos/seed/cairn-partner/700/220',
+    photo: '/images/service-partner.svg',
     photoAlt: 'Small team collaborating in a bright office',
     description: 'Ongoing strategy, content, ads, and reporting — without hiring a full-time team. You get two dedicated specialists who know your business and show up every month with a clear plan.',
     bestFor: 'Businesses ready for consistent growth without the overhead',

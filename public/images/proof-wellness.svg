@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="240" viewBox="0 0 700 240">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2D28"/>
+      <stop offset="100%" stop-color="#2A3D36"/>
+    </linearGradient>
+    <radialGradient id="sage" cx="35%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#74C69D" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#74C69D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rose" cx="75%" cy="65%" r="45%">
+      <stop offset="0%" stop-color="#C4A882" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C4A882" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="240" fill="url(#bg)"/>
+  <rect width="700" height="240" fill="url(#sage)"/>
+  <rect width="700" height="240" fill="url(#rose)"/>
+  <!-- Leaf / organic shapes -->
+  <ellipse cx="280" cy="120" rx="80" ry="40" fill="none" stroke="rgba(116,198,157,0.2)" stroke-width="1.5" transform="rotate(-20 280 120)"/>
+  <ellipse cx="280" cy="120" rx="50" ry="25" fill="rgba(116,198,157,0.1)" transform="rotate(-20 280 120)"/>
+  <ellipse cx="420" cy="120" rx="80" ry="40" fill="none" stroke="rgba(116,198,157,0.2)" stroke-width="1.5" transform="rotate(20 420 120)"/>
+  <ellipse cx="420" cy="120" rx="50" ry="25" fill="rgba(116,198,157,0.1)" transform="rotate(20 420 120)"/>
+  <!-- Stem -->
+  <line x1="350" y1="180" x2="350" y2="60" stroke="rgba(116,198,157,0.25)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Concentric calm circles -->
+  <circle cx="350" cy="120" r="100" fill="none" stroke="rgba(196,168,130,0.08)" stroke-width="1"/>
+  <circle cx="350" cy="120" r="70" fill="none" stroke="rgba(196,168,130,0.1)" stroke-width="1"/>
+  <circle cx="350" cy="120" r="40" fill="none" stroke="rgba(196,168,130,0.12)" stroke-width="1"/>
+  <!-- Spa candle shapes -->
+  <rect x="130" y="150" width="14" height="50" rx="7" fill="rgba(196,168,130,0.25)"/>
+  <ellipse cx="137" cy="148" rx="4" ry="6" fill="rgba(255,210,120,0.5)"/>
+  <rect x="556" y="155" width="14" height="45" rx="7" fill="rgba(196,168,130,0.25)"/>
+  <ellipse cx="563" cy="153" rx="4" ry="6" fill="rgba(255,210,120,0.5)"/>
+</svg>
