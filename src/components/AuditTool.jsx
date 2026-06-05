@@ -81,7 +81,7 @@ function getResult(score) {
   } else {
     return {
       level: 'high',
-      headline: "Your marketing foundation needs attention — but it's fixable.",
+      headline: "Your marketing foundation needs attention.",
       body: "There are several gaps that are almost certainly limiting your growth. Don't panic — most businesses at this stage are in the same position. A clear strategy and a few focused fixes can turn this around in 30–60 days. Let's start with the highest-leverage fix first.",
       tag: 'Foundation Issues',
       color: 'red',
